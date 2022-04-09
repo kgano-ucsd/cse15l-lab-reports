@@ -39,7 +39,7 @@ This will print the entire directory/file path that you are currently in.
 2. *ls -a* - list all files in current folder, including hidden ones.
 
 3. cd [file name] - change directory
-Navigate to a new file in your current directory. 
+Navigate to a new file in your current directory.
 
 **Let's see how they all work together!**
 
@@ -48,9 +48,6 @@ Navigate to a new file in your current directory.
 Notice how *pwd* tells us where we are, *ls -a* tells us everything in our location, and *cd perl15* puts us inside of that file.
 After running *pwd* again, you can see that, indeed, our direction has changed.
 
-
-4. *scp [file name] [your username]@ieng6.ucsd.edu* 
-**See step four for more information!**
 
 # **Step 4: Using scp to copy files from local computer to host computer**
 
@@ -128,13 +125,10 @@ following the format
 *[compile]; [run]*
 
 After hitting enter, we see...
+
 ![Image](FINAL-LabReport1.png)
 
 
-
-
-
-following the form
 
 
 
