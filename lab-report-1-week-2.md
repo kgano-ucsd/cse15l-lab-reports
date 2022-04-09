@@ -17,7 +17,7 @@ Walkthrough the setup, and ensure the installation path is routed to a place tha
 With VSCode open, navigate to the Terminal at the bottom. You can access it by navigating to the bottom of the window and pulling up. A menu should appear.
 
 Type in
-    *ssh [your username]@ieng6.ucsd.edu*
+*ssh [your username]@ieng6.ucsd.edu*
 
 ieng.ucsd.edu is merely the host name--the server you are trying to connect to. This may differ for you depending on the server you intend to connect to!
 
@@ -38,7 +38,7 @@ This will print the entire directory/file path that you are currently in.
 
 2. *ls -a* - list all files in current folder, including hidden ones.
 
-3. cd [file name] - change directory
+3. *cd [file name]* - change directory
 Navigate to a new file in your current directory.
 
 **Let's see how they all work together!**
@@ -75,9 +75,8 @@ As you might have noticed, having to type in you password for EVERYTHING can get
 This is where ssh keygen, or key generation, comes in.
 
 On your host computer (Windows), run this command:
-    *ssh key-gen -t ed25519*
-
-    For mac, the command is merely *ssh key-gen*
+*ssh key-gen -t ed25519*
+- For mac, the command is merely *ssh key-gen*
 
 Hit **enter**.
 You will then be asked the file you wish to save the password. 
@@ -97,7 +96,7 @@ Type the command
 then log out.
 
 On your LOCAL machine, recall the path used above for a command of this form: 
-*scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys*
+*scp /Users/<user-name>/.ssh/id_rsa.pub [user-name]@ieng6.ucsd.edu:~/.ssh/authorized_keys*
 
 Now, when you log into the remote server, notice how you can bypass typing in the passcode! Logging in should now look like this:
 ![Image](LogInNoPW-LabReport1.png)
