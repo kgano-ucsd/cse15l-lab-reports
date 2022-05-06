@@ -50,4 +50,4 @@ We can now run our JUnit tests to show that it works from inside ieng6 to show t
 ![Image](runningTestsAfterscp-rProof.png)
 
 Lastly, as a culminatation of our newfound ease/alias to log into the server, we can combine the copying, ssh-ing, and test-running process by separating scp and ssh with a semicolon. Then, immediatelly following the ssh command, put in quotes "" changing the directory to the proper file you are copying over, then the javac -cp... and java -cp... commands to run with JUnit. When we hit entire, we run the the whole line--copying, ssh-ing, and testing--all at once!
-![Image](RunningAllTestsscp-rOneLine.png)
+![Image](RunningAllTestscp-rOneLine.png)
