@@ -45,7 +45,9 @@ Next, I ahad to activate the ssh agent and add the id_ed25519 (kgano-ucsd@github
 2. *ssh-add ~/.ssh/id_ed25519*
 
 With my ssh key now fully set up on the remote server and matched with the key on github, I had to establish a url connection to the cse15l-lab-reports repo like so:
+
 **Note: I was inside the cse15l-lab-reports repo on the server when I did this**
+
 *git remote set-url origin git@github.com:kgano-ucsd/cse15l-lab-reports.git*
 
 With this all set up, I was able to make a sample change to my cse15l-lab-reports repo like so:
