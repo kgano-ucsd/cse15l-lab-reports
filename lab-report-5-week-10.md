@@ -43,7 +43,7 @@ In this lab report, I am going to compare the results of two tests, and explain 
 
 Here is our results (on the left) and the other implementation's results (on the right):
 
-![Image](test-194-output.png){ size=250% }
+![Image](test-194-output.png){ width=150% }
 
 Based on the on both the raw markdown text
 
@@ -70,7 +70,7 @@ The problem here is in the case of one-line markdown links, where there is no ne
 
 Here is our results (on the left) and the other implementation's results (on the right):
 
-![Image](test-481-output.png){ size=250% }
+![Image](test-481-output.png){ width=150% }
 
 Based on the on both the raw markdown text
 
