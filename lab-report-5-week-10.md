@@ -29,7 +29,7 @@ vimdiff my-markdown-parser-results.txt other-markdown-parser.txt
 After this, I was able to visually compare the differences between each output side by side, test by test like so:
 (ours is on the left, the other is on the right)
 
-![Image](vimDiff.png =250x)
+![Image](vimDiff.png{ size=250% }
 
 It is very convenient that the differences are highlighted!
 
@@ -43,7 +43,7 @@ In this lab report, I am going to compare the results of two tests, and explain 
 
 Here is our results (on the left) and the other implementation's results (on the right):
 
-![Image](test-194-output.png =250x)
+![Image](test-194-output.png){ size=250% }
 
 Based on the on both the raw markdown text
 
@@ -70,7 +70,7 @@ The problem here is in the case of one-line markdown links, where there is no ne
 
 Here is our results (on the left) and the other implementation's results (on the right):
 
-![Image](test-481-output.png =250x)
+![Image](test-481-output.png){ size=250% }
 
 Based on the on both the raw markdown text
 
