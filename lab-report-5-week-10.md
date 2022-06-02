@@ -29,7 +29,7 @@ vimdiff my-markdown-parser-results.txt other-markdown-parser.txt
 After this, I was able to visually compare the differences between each output side by side, test by test like so:
 (ours is on the left, the other is on the right)
 
-![Image](vimDiff.png{ size=250% }
+![Image](vimDiff.png){#id .class height="300" key2="300"}
 
 It is very convenient that the differences are highlighted!
 
